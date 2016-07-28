@@ -12,7 +12,7 @@ def lucky_num?(num)
 end
 
 def single_digit_sum(num)
-  return num if  num.to_s.length == 1
+  return num if num.to_s.length == 1
   single_digit_sum(sum_numbers(num))
 end
 
