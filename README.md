@@ -4,6 +4,12 @@ For this month's SDRuby magic night, we will be using a google code jam problem.
 The text of the problem is reproduced below. Datasets are provided within the
 repo.
 
+```ruby
+require 'io_helpers'
+data_set = DataSet.build(:small)
+data_set.cases
+# => [TestCase, TestCase, ...]
+```
 
 ##Problem
 
